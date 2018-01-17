@@ -191,7 +191,7 @@ Pod::Spec.new do |s|
     ss.header_mappings_dir = '.'
     ss.libraries = 'z'
     ss.dependency "#{s.name}/Interface", version
-    ss.dependency 'BoringSSL', '~> 9.1'
+    ss.dependency 'BoringSSL', '~> 8.2'
 
     # To save you from scrolling, this is the last part of the podspec.
     ss.source_files = 'src/core/lib/profiling/timers.h',
